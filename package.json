@@ -33,5 +33,8 @@
     "@storybook/manager-webpack5": "^6.5.10",
     "@babel/core": "^7.19.0",
     "babel-loader": "^8.2.5"
+  },
+  "volta": {
+    "node": "16.17.0"
   }
 }
