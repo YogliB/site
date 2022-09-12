@@ -16,6 +16,7 @@ specifiers:
   babel-loader: ^8.2.5
   eslint: 8.23.1
   eslint-config-next: 12.3.0
+  eslint-config-prettier: ^8.5.0
   next: 12.3.0
   react: 18.2.0
   react-dom: 18.2.0
@@ -43,6 +44,7 @@ devDependencies:
   babel-loader: 8.2.5_@babel+core@7.19.0
   eslint: 8.23.1
   eslint-config-next: 12.3.0_irgkl5vooow2ydyo6aokmferha
+  eslint-config-prettier: 8.5.0_eslint@8.23.1
   typescript: 4.8.3
   windicss-webpack-plugin: 1.7.6
 
@@ -5971,6 +5973,15 @@ packages:
     transitivePeerDependencies:
       - eslint-import-resolver-webpack
       - supports-color
+    dev: true
+
+  /eslint-config-prettier/8.5.0_eslint@8.23.1:
+    resolution: {integrity: sha512-obmWKLUNCnhtQRKc+tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX+AuPj1YSGSQIHl1pnDHZR0Q==}
+    hasBin: true
+    peerDependencies:
+      eslint: '>=7.0.0'
+    dependencies:
+      eslint: 8.23.1
     dev: true
 
   /eslint-import-resolver-node/0.3.6:

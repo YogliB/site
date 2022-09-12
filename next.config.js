@@ -4,9 +4,10 @@ const WindiCSSWebpackPlugin = require('windicss-webpack-plugin')
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  webpack: {
-    plugins: [new WindiCSSWebpackPlugin()]
-  }
+  webpack(config) {
+    config.plugins.push(new WindiCSSWebpackPlugin())
+    return config
+  },
 }
 
 module.exports = nextConfig
